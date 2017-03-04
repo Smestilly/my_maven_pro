@@ -1,0 +1,35 @@
+body {
+	color: #797979;
+	font-family: "Microsoft YaHei","SimSun",sans-serif;
+}
+
+a, a:hover, a:focus {
+	outline: medium none;
+	text-decoration: none;
+}
+
+*::-moz-selection {
+	background:  #6a67ce none repeat scroll 0 0;
+    color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Microsoft YaHei","SimSun",sans-serif;
+}
+
+a {
+	color: #8a8b8b;
+}
+
+.navbar-login {
+    background: rgba(0, 0, 0, 0) no-repeat scroll left center;
+    position: relative;
+}
+
+.navbar-login, .navbar-download {
+    color: #bbb;
+    float: right;
+    font-size: 14px;
+    margin: 15px 0 0 10px;
+    padding-left: 10px;
+}

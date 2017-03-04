@@ -1,0 +1,396 @@
+
+.col-red {
+    color: #fe5457;
+}
+
+.navbar-brand {
+    background: rgba(0, 0, 0, 0) url("../image/7inlogo.png") no-repeat scroll 0 0;
+    display: inline-block;
+    height: 35px;
+    margin: 8px 15px 0 0;
+    padding: 0;
+    width: 91px;
+}
+
+.sq-concat {
+    margin-top: -150px;
+    position: fixed;
+    right: 25px;
+    top: 50%;
+    z-index: 6;
+}
+
+.sq-concat-back {
+    background: rgba(0, 0, 0, 0) url("../image/youcexian.png") no-repeat scroll 0 0;
+    height: 188px;
+    position: relative;
+    width: 7px;
+}
+
+.sqwrap {
+    height: 38px;
+    position: absolute;
+    right: -15px;
+    top: 27px;
+}
+
+.position1 {
+    top: 79px;
+}
+
+.position2 {
+    top: 133px;
+}
+
+.position3 {
+    bottom: 60px;
+    height: 53px;
+    position: fixed;
+    right: 10px;
+    width: 67px;
+    z-index: 8;
+}
+
+.img-phone, .img-qq, .img-feedback, .img-gotop {
+    background: rgba(0, 0, 0, 0) url("../image/index.png") no-repeat scroll center center;
+    cursor: pointer;
+    display: inline-block;
+    height: 38px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 38px;
+}
+.img-qq {
+    background: rgba(0, 0, 0, 0) url("../image/index1.png") no-repeat scroll center center;
+}
+.img-feedback {
+    background: rgba(0, 0, 0, 0) url("../image/index2.png") no-repeat scroll center center;
+}
+
+.img-gotop {
+    background: rgba(0, 0, 0, 0) url("../image/index3.png") no-repeat scroll center center;
+}
+
+.img-gotop:hover {
+    background: #3be8b0 url("../image/index3_hov.png") no-repeat scroll center center;
+    border-radius: 3px;
+}
+
+.nums {
+    display: none;
+    line-height: 38px;
+    margin-right: 38px;
+    padding-left: 10px;
+    position: relative;
+    white-space: nowrap;
+}
+
+.ph-hov {
+    background-color: #3be8b0;
+    color: #fff;
+}
+
+.ph-hov .img-phone {
+    background: #3be8b0 url("../image/index_hov.png") no-repeat scroll center center;
+}
+
+.ph-hov .img-qq {
+    background: #3be8b0 url("../image/index1_hov.png") no-repeat scroll center center;
+}
+
+.ph-hov .img-feedback {
+    background: #3be8b0 url("../image/index2_hov.png") no-repeat scroll center center;
+}
+
+.footer {
+    background: #252525 none repeat scroll 0 0;
+    color: #fff;
+    display: inline-block;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+}
+
+.footer h1 {
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 15px;
+    text-transform: uppercase;
+}
+
+#see {
+    font-size: 14px;
+    margin: 0 5px;
+}
+
+.linkwarp {
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+}
+
+.linker {
+    background: #fff none repeat scroll 0 0;
+    display: inline-block;
+    margin: 0 auto;
+    padding: 50px 0;
+    text-align: center;
+    width: 100%;
+}
+
+.button-wapasha {
+	display: inline-block;
+	position: relative;
+	background: #fff;
+	border: 1px solid #fff;
+	border-radius:4px;
+	line-height:35px;
+	color: #999;
+	font-size: 14px;
+	-webkit-transition: background-color 0.3s, color 0.3s;
+	transition: background-color 0.3s, color 0.3s;
+}
+
+.button-wapasha::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border: 1px solid #3be8b0;
+	z-index: 1;
+	border-radius: inherit;
+	opacity: 0;
+	-webkit-transform: scale3d(0.6, 0.6, 1);
+	transform: scale3d(0.6, 0.6, 1);
+	-webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+	transition: transform 0.3s, opacity 0.3s;
+	-webkit-transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
+	transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
+}
+
+.button-wapasha:hover {
+	background-color: #fff;
+  border-color: #fff;
+	color: #3be8b0;
+	cursor:pointer;
+}
+
+.button-wapasha:hover::before {
+	-webkit-transform: scale3d(1, 1, 1);
+	transform: scale3d(1, 1, 1);
+	opacity: 1;
+}
+
+.btn-grey {
+    background-color: #f7f7f7;
+    border-color: #eee;
+    color: #999;
+    margin: 5px 15px;
+    padding: 0 30px 0 20px;
+}
+
+.btn-thumb {
+    background-color: #fff;
+    color: #6a67ce;
+    padding: 0;
+    width: 128px;
+}
+
+.icon-btn1, .icon-btn2, .icon-btn3, .icon-btn4, .icon-btn5 {
+    display: inline-block;
+    height: 40px;
+    margin-right: 5px;
+    vertical-align: middle;
+    width: 40px;
+}
+
+.icon-btn1, .btn-grey:hover .icon-btn1 {
+    background: rgba(0, 0, 0, 0) url("../image/icon_btn1.png") no-repeat scroll 0 0;
+}
+.icon-btn2, .btn-grey:hover .icon-btn2 {
+    background: rgba(0, 0, 0, 0) url("../image/icon_btn2.png") no-repeat scroll 0 0;
+}
+.icon-btn3, .btn-thumb:hover .icon-btn3 {
+    background: rgba(0, 0, 0, 0) url("../image/icon_btn3.png") no-repeat scroll 0 0;
+}
+.icon-btn4, .btn-grey:hover .icon-btn4 {
+    background: rgba(0, 0, 0, 0) url("../image/icon_btn4.png") no-repeat scroll 0 0;
+}
+.icon-btn5, .btn-grey:hover .icon-btn5 {
+    background: rgba(0, 0, 0, 0) url("../image/icon_btn5.png") no-repeat scroll 0 0;
+}
+
+.btn-grey:hover .icon-btn1, .btn-grey:hover .icon-btn2, .btn-thumb:hover .icon-btn3, .btn-grey:hover .icon-btn4, .btn-grey:hover .icon-btn5 {
+    background-position: 0 -40px;
+}
+
+.button-ujarak {
+    border: 1px solid #6a67ce;
+    border-radius: 50px;
+    color: #6a67ce;
+    display: inline-block;
+    font-size: 14px;
+    height: 50px;
+    line-height: 50px;
+    position: relative;
+    transition: border-color 0.4s ease 0s, color 0.4s ease 0s;
+    vertical-align: middle;
+    width: 160px;
+    z-index: 1;
+}
+.button-ujarak::before {
+    background: #6a67ce none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    transform: scale3d(0.7, 1, 1);
+    transition-delay: 0s, 0s;
+    transition-duration: 0.4s, 0.4s;
+    transition-property: transform, opacity;
+    transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+    width: 100%;
+    z-index: -1;
+}
+.button-ujarak:hover {
+    border-color: #6a67ce;
+    border-radius: 50px;
+    color: #fff;
+    cursor: pointer;
+}
+.button-ujarak:hover::before {
+    border-radius: 50px;
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px);
+}
+
+
+.layui-layer.demo-class {
+    border-radius: 8px;
+    overflow: hidden;
+}
+.demo-class .layui-layer-title {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border-bottom: 0 none;
+    border-radius: 0;
+    height: 0;
+    padding: 0;
+}
+.demo-class .layui-layer-setwin a {
+    background: rgba(0, 0, 0, 0) url("../image/close.png") no-repeat scroll 0 0;
+    opacity: 0.5;
+    top: 0;
+}
+
+.login-pos {
+    position: relative;
+}
+.login-title {
+    color: #333;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    text-align: center;
+}
+.login-wrong {
+    background-color: #fff7f7;
+    border: 1px solid #fff7f7;
+    color: #f06175;
+    display: none;
+    left: 0;
+    padding: 5px 15px;
+    position: absolute;
+    right: 0;
+    top: -10px;
+}
+.login-group {
+    margin: 0 30px;
+    padding: 20px 0 0;
+}
+.login-group input {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: -moz-use-text-color -moz-use-text-color #e5e5e5;
+    border-image: none;
+    border-style: none none solid;
+    border-width: 0 0 1px;
+    display: block;
+    height: 45px;
+    line-height: 45px;
+    padding: 5px 12px;
+    width: 95%;
+}
+.login-btn {
+    padding: 25px 15px 0;
+}
+
+.login-btn a {
+    background: #6a67ce none repeat scroll 0 0;
+    border-radius: 4px;
+    color: #fff;
+    display: block;
+    font-size: 16px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+.login-btn a:hover {
+    background: #5553a8 none repeat scroll 0 0;
+    text-decoration: none;
+}
+.login-tips {
+    font-size: 12px;
+    padding: 15px;
+    text-align: center;
+}
+.login-tips input {
+    border: 1px solid #7d7c7c;
+    margin: 0 5px 0 0;
+    vertical-align: middle;
+}
+
+.login-tips a {
+    color: #ccc;
+    margin-left: 100px;
+    text-decoration: underline;
+}
+.login-tips a:hover {
+    color: #fd636b;
+}
+
+.login-btn {
+    background: #3be8b0 none repeat scroll 0 0;
+    border-radius: 8px;
+    bottom: 50px;
+    color: #fff;
+    height: 60px;
+    line-height: 60px;
+    padding: 0;
+    position: absolute;
+    right: -20px;
+    text-align: left;
+    transition: all 0.3s ease 0s;
+    width: 60px;
+}
+.login-btn:hover {
+    background: #2fd49f none repeat scroll 0 0;
+    right: -8px;
+}
+.login-btn .icon-arrow {
+    background: rgba(0, 0, 0, 0) url("../image/aro_right.png") no-repeat scroll 0 0;
+    display: inline-block;
+    height: 24px;
+    margin: 19px 0 0 8px;
+    width: 24px;
+}
+.login-btn:focus, .login-btn:active {
+    outline: medium none;
+}
